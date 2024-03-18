@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-size: 14px;
+    font-weight: 300;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration:none;
+    font-family: 'Poppins',sans-serif;
+}
+
+#logo{
+    padding: 0px;
+    size: 20px;
+}
+#contact{
+    padding-right: 650px;
+    padding-left: 400px;
+}
+#navigation{
+    position: fixed;
+    z-index: 1000;
+    width: 120%;
+    top: 0;
+    left: 0;
+}
+#navigation1{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 46px;
+    height:75px ;
+    left: 0;
+}
+#navlist{
+    margin-left: 400px;
+    
+}
+#spacenav{
+    margin-top: 170px;
+    margin-left: 10px;
+}
+#spacenav1{
+    margin-top: 80px;
+}
+
+#navigation0{
+    position: fixed;
+    background-color: antiquewhite;
+    z-index: 1000;
+    width: 100%;
+    top: 45px;
+    height:75px ;
+    left: 0;
+}
+.nav-link{
+    color:black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .fade {
+    animation: fade 2.5s ease-in-out;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.6;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* styles of contact us */
+  .contactinformation{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1320px;
+    height: 620px;
+    padding-left: 20px;
+    color: black;
+  }
+  #fillform{
+    background-color: bisque;
+  }
+ #submitbutton{
+    text-align: center;
+    padding-left: 100px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+ #packages{
+    /* display: inline-block; */
+    display: flex;
+ }
+ .slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    max-width: 670%;
+    max-height: 670%;
+  }
+  
+  .fade {
+    animation: fade 1.5s ease-in-out;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.6;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .circular-images {
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .circle {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+    animation: moveRightToLeft 10s linear infinite; /* Adjust duration as needed */
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  @keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info,
+  .email-address {
+    flex: 1;
+  }
+  
+  .contact-info h3,
+  .email-address h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p,
+  .email-address p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  /* #footernavigation{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    bottom: 0;
+    left: 2px;
+    right: 0;
+    background-color:darkgray;
+} */
+#contact{
+ color:black;
+ padding-left:20PX;
+ margin-top: 30px;
+}
+.phonenumber{
+    margin-left: 780px;
+}
+.imageclass{
+   position: relative;
+   width: 100%;
+   height: 250px;
+}
+.backgound{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../safaris\ images/elephant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    position: relative;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.contentinfor{
+    display: flex;
+    flex-direction: column;
+}
+.paypall{
+    margin-left: 0px;
+}
+.safarisbooking{
+    margin-right: 400px;
+}
+ul{
+    list-style-type: circle;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 576px) {
+  #navigation{
+    width: 100%;
+  }
+  #navigation0{
+    width: 100%;
+    top: 75px;
+  }
+  #spacenav1{
+    margin-top: 200px;
+  }
+  #navigation1{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 46px;
+    height:75px ;
+    left: 0;
+}
+  .phonenumber{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  #navlist{
+    margin-left: 100px;  
+  }
+  #spacenav{
+    margin-top: 350px;
+    margin-left: 0px;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 55px;
+  }
+  
+  .nav{
+    margin-bottom: 50px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #footernavigation .paypall,
+  #footernavigation .safarisbooking {
+    margin-left: 10;
+    text-align: left;
+  }
+  #logo{
+    width:100%;
+    max-width: 55px;
+  }
+  .location-image {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 768px) {
+  #navigation{
+    width: 100%;
+  }
+  #navigation0{
+    width: 100%;
+    top: 75px;
+  }
+  #spacenav1{
+    margin-top: 200px;
+  }
+  #navigation1{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 46px;
+    height:75px ;
+    left: 0;
+}
+  .phonenumber{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  #navlist{
+    margin-left: 100px;  
+  }
+  #spacenav{
+    margin-top: 350px;
+    margin-left: 0px;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 65px;
+  }
+  .nav{
+    margin-bottom: 50px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #footernavigation .paypall,
+  #footernavigation .safarisbooking {
+    margin-left: 10;
+    text-align: left;
+  }
+
+  #footernavigation{
+    display: flex;
+    flex-direction: column;
+  }
+  #logo{
+    width: 100%;
+    max-width: 65px;
+  }
+  .location-image {
+    width: 100%;
+    max-width: 350px;
+  }
+}
